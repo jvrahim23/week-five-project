@@ -440,33 +440,73 @@ footer .footer-text {
 }
 
 /*login html begin*/
-.sub_title header .first {
+.main-login {
+  background: url(/assets/pexels-suzy-hazelwood-1887609.jpg);
+  max-width: 1760px;
+  height: 1206px;
+}
+.first {
   font-family: "JejuMyeongjo";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 42px;
   line-height: 32px;
   text-align: center;
   color: #eecc1c;
   padding: 54px 30% 8px;
+  -webkit-text-stroke: 1px black;
+}
+.sign-in {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.login_box_container {
+  position: relative;
+}
+.login-box-wrapper {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 30%;
+}
+.sign-in {
+  position: absolute;
+  padding-left: 2%;
+  padding-top: 2%;
+  top: 0;
 }
 
-.login_box_container {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+.sign-in-text {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
   text-align: center;
-  position: relative;
-  align-items: center;
+
+  color: #000000;
 }
 
 .login-box {
-  position: absolute;
-  width: 735px;
-  height: 796px;
   background: #fffefe;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  width: 675px;
+  height: 736px;
 }
+/*.login-box {
+  position: absolute;
+  width: 735px;
+  height: 796px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}*/
 
 /*registration page styling*/
 .name {
@@ -478,6 +518,18 @@ footer .footer-text {
   color: #000000;
 }
 
+.username input {
+  width: 365px;
+  height: 32px;
+}
+.password input {
+  width: 365px;
+  height: 32px;
+}
+.short-bio input {
+  width: 365px;
+  height: 132px;
+}
 .form-first-name {
   display: flex;
   gap: 20%;
