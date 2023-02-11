@@ -1,568 +1,627 @@
-*{
-    padding:0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /* banner styling */
-.banner-container{
-    max-width: 1986px;
-    height: 85px;
-    background: #14164A;
+.banner-container {
+  max-width: 1986px;
+  height: 85px;
+  background: #14164a;
 }
 
 /* search field styling */
-.search-wrapper{
-    position: relative;
-    color:black;
+.search-wrapper {
+  position: relative;
+  color: black;
 }
 
 input .search-field {
-    background: #FFFEFE;
-    position: absolute;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 22px; 
+  background: #fffefe;
+  position: absolute;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
 }
 
-
-.search-field{
-    outline: none;
-    border: none;
-    border-radius: 1.625rem;
-    width: 80%;
-    height: 40px;
-    padding-left: 10px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 22px;
+.search-field {
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  width: 80%;
+  height: 40px;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
 }
 /* search icon styling */
-.search-box{
-    position: absolute;
-    top: 3px;
-    padding: 3px;
-    bottom: 1px;
-    left: 60%;
-    width: 34px;
-    height: 34px;
+.search-box {
+  position: absolute;
+  top: 3px;
+  padding: 3px;
+  bottom: 1px;
+  left: 60%;
+  width: 34px;
+  height: 34px;
 }
-
 
 /*navigation styling */
 nav {
-    display: flex;
-    line-height: 1.4em;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px
+  display: flex;
+  line-height: 1.4em;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 /*center content*/
-.container1-main{
-    max-width: 1986px;
-    height: 20px;
-    top: -187px;
-    left:-500px;
-    background: #4A4446;
+.container1-main {
+  max-width: 1986px;
+  height: 20px;
+  top: -187px;
+  left: -500px;
+  background: #4a4446;
 }
 
-#mid-section-2{
-    display: flex;
-    max-width: 1986px;
-    height: 123px;
-    padding: 34px;
-    background: rgba(248, 217, 55, 0.79);
-    justify-content: center;
-    align-items: center;
+#mid-section-2 {
+  display: flex;
+  max-width: 1986px;
+  height: 123px;
+  padding: 34px;
+  background: rgba(248, 217, 55, 0.79);
+  justify-content: center;
+  align-items: center;
 }
 
-.section-two-text{
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 54px;
-    /* identical to box height */
-    color: #FFFEFE;
-    -webkit-text-stroke: .4px #4A4446;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.section-two-text {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  /* identical to box height */
+  color: #fffefe;
+  -webkit-text-stroke: 0.4px #4a4446;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 /*images styling*/
 
 .container-3 {
-    align-items: center; 
-    line-height: 0px;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  line-height: 0px;
+  display: flex;
+  justify-content: center;
 }
 
-.photo3-container{
-    position: relative;
-    justify-content: center;
-    align-items: center;
+.photo3-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
-.photo3-text{
-    position: absolute;
-    width: 148px;
-    height: 25px;
-    padding-top: 20px;
-    padding-left: 30px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #000000;  
-    list-style-type:none
+.photo3-text {
+  position: absolute;
+  width: 148px;
+  height: 25px;
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  list-style-type: none;
 }
 
 /*home contact information*/
-.contact-1{
-    width: 148px;
-    height: 25px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #000000;
+.contact-1 {
+  width: 148px;
+  height: 25px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
 }
 
-.contact-2{
-
-    width: 217px;
-    height: 72px;
-    font-size: 14px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+.contact-2 {
+  width: 217px;
+  height: 72px;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
-.contact-3{
-    width: 111px;
-    height: 24px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    color: #000000; 
+.contact-3 {
+  width: 111px;
+  height: 24px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
-.contact-4{
-    width: 165px;
-    height: 24px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    color: #000000;
+.contact-4 {
+  width: 165px;
+  height: 24px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
-.contact-5{
-    width: 166px;
-    height: 48px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+.contact-5 {
+  width: 166px;
+  height: 48px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
-
 
 /* footer styling */
 footer {
-    max-width: 1986px;
-    height: 222px;
-    background: rgba(20, 22, 74, 0.81); 
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    padding-top: 30px;
-    padding-bottom: 60px;
+  max-width: 1986px;
+  height: 222px;
+  background: rgba(20, 22, 74, 0.81);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 footer .footer-greeting {
-    width: 489px;
-    height: 122px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 61px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(248, 217, 55, 0.79);
-    padding-bottom: 20px;
-   
+  width: 489px;
+  height: 122px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(248, 217, 55, 0.79);
+  padding-bottom: 20px;
 }
 
 footer .footer-text {
-    padding-top: 30px;
-    width: 652px;
-    height: 81px;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 27px;
-    text-align: center;
-    color: #FFFEFE;  
-    inline-size: 700px;
-    position: absolute;
-    bottom: 0;     
+  padding-top: 30px;
+  width: 652px;
+  height: 81px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #fffefe;
+  inline-size: 700px;
+  position: absolute;
+  bottom: 0;
 }
 
-
-.staff-login{
-    color: #FFFEFE;
-    text-decoration: underline;
-    position: absolute;
-    bottom: 0;
-    right: 0;  
+.staff-login {
+  color: #fffefe;
+  text-decoration: underline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /*about-us-hmtl*/
 
 /*Virginia Logo */
 
-.Virginia{
-    text-align: center;
-    align-items: center;
-    display: flex;
-    left:0;
-    padding-top: 40px;
-    padding-left: 20px;
-    position: absolute;
+.Virginia {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  left: 0;
+  padding-top: 40px;
+  padding-left: 20px;
+  position: absolute;
 }
 
-.Gold_Peach_name{
-    padding: 10px;
-    text-align: center;
-    align-items: center; 
+.Gold_Peach_name {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
 }
 
-.virginia-image{
-    padding: 10px;
-    text-align: center;
-    align-items: center;
+.virginia-image {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
 }
 .banner-container-about-us {
-    max-width: 1986px;
-    height: 85px;
-    background: #14164A;
-
+  max-width: 1986px;
+  height: 85px;
+  background: #14164a;
 }
 
 /*mid content*/
-.about-us-div{
-    background:rgba(231, 229, 229, 0.91);
-    max-width: 1986px;
-    height: 809px;
-    padding-left: 50px;
+.about-us-div {
+  background: rgba(231, 229, 229, 0.91);
+  max-width: 1986px;
+  height: 809px;
+  padding-left: 50px;
 }
 
 /*about us left content */
-.about-us-overview{
-    width: 260px;
-    height: 19px;
-    font-family: 'Inria Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    padding-left:-5em;
-    padding-top: 20px; 
-    padding-bottom: 20px;
+.about-us-overview {
+  width: 260px;
+  height: 19px;
+  font-family: "Inria Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-left: -5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.about-us-left-square{
- 
-    width: 453px;
-    height: 709px;
-    background: #FFFEFE;
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 10px;
+.about-us-left-square {
+  width: 453px;
+  height: 709px;
+  background: #fffefe;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.left-square-content{
-    position: relative;
+.left-square-content {
+  position: relative;
 }
 
-.first-about-us-div{
-    position: absolute;
+.first-about-us-div {
+  position: absolute;
 }
 .first-about-us-div h2 {
-    width: 73px;
-    height: 34px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    color: #000000;
-    margin: 20px;
+  width: 73px;
+  height: 34px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+  margin: 20px;
 }
 
 .overview-small-rectangle {
-    width: 418px;
-    height: 59px;
-    background: #F4F1F1;
-    border-radius: 5px; 
-    margin: 20px;
-    position:relative;
-    align-items: center;
-    justify-content: center; 
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 0px;
+  width: 418px;
+  height: 59px;
+  background: #f4f1f1;
+  border-radius: 5px;
+  margin: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 0px;
 }
 
 .overview-small-rectangle li a {
-    position: absolute; 
-    text-decoration: none;
+  position: absolute;
+  text-decoration: none;
 }
 
 /*.overview-small-rectangle ul {
     list-style-type: none;
 }*/
 
-
-.second-about-us-div{
-    position: relative;
+.second-about-us-div {
+  position: relative;
 }
 
 .second-about-us-div img {
-    position: absolute;
-    padding-top: 50%;
-    padding-left: 20px;
-    
+  position: absolute;
+  padding-top: 50%;
+  padding-left: 20px;
 }
 
 .second-about-us-div h2 {
-    position: absolute;
-    padding-top:60%;
-    padding-left:20px;
+  position: absolute;
+  padding-top: 60%;
+  padding-left: 20px;
 }
 /*middle content right side */
 
-.about-us-right-square{
- 
-    width: 1197px;
-    height: 709px;
-    background: #FFFEFE;
-    border-radius: 5px;
-    display: inline-block;
-    margin-left: 10px;
+.about-us-right-square {
+  width: 1197px;
+  height: 709px;
+  background: #fffefe;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 /*book listing page*/
-.sub_categories{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.sub_categories {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2%;
 }
 
 .sub_categories a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    color: gray;
-    text-decoration: none;
-    padding-left: 55px;
-    padding-right: 55px;
-    
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: gray;
+  text-decoration: none;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 /*top book section header*/
-.top-book_section_header{
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
-    padding: 20px 10%;
+.top-book_section_header {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 30px;
+  color: #000000;
+  padding: 50px 10%;
 }
 
-.top-book_section .top-books .left-book{
-    padding-left: 10%;
-    text-align: center;
-    align-items: center;
+.top-book_section .top-books .left-book {
+  padding-left: 10%;
+  text-align: center;
+  align-items: center;
 }
 
-.top-book_section .top-books img{
-    margin-left: 18px;
-    margin-right: 18px;
+.top-book_section .top-books img {
+  margin-left: 18px;
+  margin-right: 18px;
 }
-
 
 /*bottom book section header*/
-.top-book_section .bottom-books .left-book{
-    padding-left: 10%;
-    text-align: center;
-    align-items: center;
+.top-book_section .bottom-books .left-book {
+  padding-left: 10%;
+  text-align: center;
+  align-items: center;
 }
-.bottom-book_section_header{
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
-    padding: 20px 10%;
+.bottom-book_section_header {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 30px;
+  color: #000000;
+  padding: 50px 10%;
 }
 
-.top-book_section .bottom-books img{
-    margin-left: 18px;
-    margin-right: 18px;
+.top-book_section .bottom-books img {
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 /*book listing main div begin*/
-.main{
-    padding-bottom: 5em;
-    background-image: url(/assets/pexels-suzy-hazelwood-1887609.jpg);
-    max-width: 1760px;
-    height: 1106px;
+.main {
+  padding-bottom: 5em;
+  max-width: 1760px;
+  height: 1106px;
 }
 
 /*login html begin*/
 .sub_title header .first {
-    font-family: 'JejuMyeongjo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    text-align: center;
-    color: #EECC1C;
-    padding:54px 30% 8px;
+  font-family: "JejuMyeongjo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #eecc1c;
+  padding: 54px 30% 8px;
 }
 
-.login_box_container{
-    padding-top:.5em;
-    padding-bottom:.5em;
-    text-align: center;
-    position: relative;
-    align-items: center;
+.login_box_container {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  position: relative;
+  align-items: center;
 }
 
-.login-box{
-    position: absolute;
-    width: 735px;
-    height: 796px;
-    background: #FFFEFE;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
+.login-box {
+  position: absolute;
+  width: 735px;
+  height: 796px;
+  background: #fffefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 /*registration page styling*/
-.registration-page{
-    max-width: 1760px;
-    height: 1106px;
-}
-.registration_title{
-    padding-top: 11px;
-    
-    text-align: center;
-    align-items: center;
-}
-.registration_title header p {
-    font-family: 'Javanese Text';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 54px;
-    color: #000000;
+.name {
+  font-weight: bold;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
 }
 
-.register_box_container{
-    padding-top: 30px;
-    text-align: left;
-    align-items: left;
-    padding-left: 638px;
-    padding-right: 638px;
+.form-first-name {
+  display: flex;
+  gap: 20%;
+}
+.fullname-div-two {
+  display: flex;
+  gap: 0.5%;
 }
 
-.top-input-boxes{
-    display: flex;
-    text-align:center;
-    align-items: center;
-    gap: 32px;
+.registration-page {
+  max-width: 1760px;
+  height: 1106px;
 }
 
-.top-input-boxes-two{
-    display: flex;
-    text-align:center;
-    align-items: center;
-    gap: 42%;
+.registration_title {
+  padding-top: 20px;
+  padding-left: 40%;
+  align-items: center;
 }
 
-.top-input-boxes input{
-    width: 195px;
-    height: 32px;
+.registration_title .registration-title {
+  font-family: "Javanese Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 54px;
+  color: #000000;
 }
 
-.top-input-boxes .username-field{
-    width: 425px;
-    height: 32px; 
-}
-.top-input-boxes .email-field{
-    width: 425px;
-    height: 32px; 
-}
-.top-input-boxes .username-field{
-    width: 425px;
-    height: 32px; 
-}
-.top-input-boxes .password-field{
-    width: 425px;
-    height: 32px; 
-}
-.top-input-boxes .bio-field{
-    width: 425px;
-    height: 100px; 
-}
-.username-wrapper{
-    padding-top: 30px;
+/* description.html styling */
+.reviews-div {
+  display: flex;
 }
 
-.email-wrapper{
-    padding-top: 30px;
+.hero-book-div {
+  padding-left: 5%;
+  padding-top: 2%;
 }
 
-.password-wrapper{
-    padding-top: 30px;
+.stars-div {
+  display: flex;
+  gap: 4em;
 }
 
-.bio-wrapper{
-    padding-top: 30px;
+.stars-div p {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
 }
 
+.contents-div {
+  padding-top: 2%;
+}
 
+.contents-right-side {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 39px;
+  color: #000000;
+}
+
+/*descriptions right side content*/
+.contents-div {
+  padding-left: 15%;
+}
+
+.author_book_number {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2px;
+  line-height: 22px;
+  text-align: right;
+  color: #000000;
+}
+.contents-div .contents-right-side p {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.top-input-boxes-two {
+  display: flex;
+}
+.top-input-boxes-two .author {
+  text-align: left;
+}
+
+.top-input-boxes-two p {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: right;
+  color: #000000;
+}
+
+/*description right side content bottom*/
+.contents-right-side-bottom-1 {
+  padding-top: 5%;
+}
+
+.contents-right-side-bottom-1 p {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.contents-right-side-bottom-2 {
+  padding-top: 5%;
+  margin-right: 15%;
+}
+
+.contents-right-side-bottom-2 p {
+  /*font-family: 'Jaldi';*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.contents-right-side-bottom-3 p {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.contents-right-side-bottom-3 {
+  margin-right: 15%;
+  padding-top: 5%;
+}

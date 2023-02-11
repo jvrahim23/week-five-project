@@ -24,9 +24,9 @@
                 </div>
                 <a href="#"> Residents </a>
                 <a href="#"> Location & Hours </a>
-                <a href="#"> About Us </a>
-                <a href="#"> Books & More </a>
-                <a href="#"> My Account </a>
+                <a href="/about_us.html"> About Us </a>
+                <a href="/book_listing_page.html"> Books & More </a>
+                <a href="/login.html"> My Account </a>
                 <a href="#"> My Cart </a>
                 <div class="search-wrapper">
                     <input class="search-field" type="text" placeholder="Search.." />
@@ -35,45 +35,42 @@
             </nav>
         </div>
         <div class="registration_title">
-            <header>
-                <p>Register</p>
-            </header>
-            <div class="register_box_container">
-                <div class="register-box">
-                    <p>Name</p>
-                    <div class="top-input-boxes">
-                        <input class="first-name-field" type="text" />
-                        <input class="last-name-field" type="text" />
-                    </div>
-                    <div class="top-input-boxes-two">
-                        <p>First</p>
-                        <p>Last</p>
-                    </div>
-                    <div class="username-wrapper">
-                        <p>Username</p>
-                        <div class="top-input-boxes">
-                            <input class="username-field" type="text" />
-                        </div>
-                    </div>
-                    <div class="email-wrapper">
-                        <p>E-mail</p>
-                        <div class="top-input-boxes">
-                            <input class="email-field" type="text" />
-                        </div>
-                    </div>
-                    <div class="password-wrapper">
-                        <p>Password</p>
-                        <div class="top-input-boxes">
-                            <input class="password-field" type="text" />
-                    </div>
-                    <div class="bio-wrapper">
-                        <p>Short Bio</p>
-                        <div class="top-input-boxes">
-                            <input class="bio-field" type="text" />
-                        </div>
-                    </div>
-                </div>
+            <div class="registration_title_header">
+                <p class="registration-title">Register</p>
             </div>
-        </div>
-</body>
-</html>
+            <div class="register_box_container">
+                <form class="formnow" action="#">
+                    <div class="fullname-div">
+                        <label class="name" for="fullname">Name</label>
+                        <div class="fullname-div-two">
+                            <input type="text" id="full name" name="firstname"><br>
+                            <input type="text" id="full name" name="lastname"><br>
+                        </div>
+                    </div>
+                    <div class="form-first-name">
+                    <p class="under-titles">First</p>
+                    <p class="under-titles-two">Last</p>
+                    </div>
+                    <div class="username">
+                        <label class="name" for="username">Username</label><br>
+                        <input type="text" id="username" name="username"><br><br>
+                    </div>
+                    <div class="email">
+                        <label class="name" for="email">E-Mail</label><br>
+                        <input type="text" id="email" name="email"><br><br>
+                    </div>
+                    <div class="password">
+                        <label class="name" for="password">Password</label><br>
+                        <input type="text" id="password" name="password"><br><br>
+                    </div>
+                    <div class="short-bio">
+                        <label class="name" for="short-bio">Short Bio</label><br>
+                        <input type="text" id="short-bio" name="short-bio"><br><br>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            </div>
+        </body>
+        
+        </html>
