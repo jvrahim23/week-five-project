@@ -5,15 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoldPeachCounty - Virginia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
     <div class="main-login">
       <div class="banner-container-about-us">
@@ -36,11 +32,7 @@
           <a href="#"> My Cart </a>
           <div class="search-wrapper">
             <input class="search-field" type="text" placeholder="Search.." />
-            <img
-              class="search-box"
-              src="/assets/Ellipse 1.png"
-              alt="search icon"
-            />
+            <img class="search-box"src="/assets/Ellipse 1.png" alt="search icon"/>
           </div>
         </nav>
       </div>
@@ -57,17 +49,37 @@
                 <form class="formnow" action="#">
                     <div class="email-two">
                         <label class="name" for="email"></label><br>
-                        <input type="text" id="email" name="email" value="Email"><br><br>
+                        <input type="text" id="email" name="email" value="Email*" required><br><br>
                     </div>
                     <div class="password-two">
+                      <div class="password-wrapper">
                         <label class="name" for="password"></label><br>
-                        <input type="text" id="password" name="password" value="Password"><br><br>
+                        <input type="text" id="password" name="password" value="Password*" required><br><br>
+                        </div>
+                        <div class="eye-wrapper">
+                        <!--<img class="eye-password" src="/assets/eye-slash.svg" alt="eye icon" width="10%">-->
+                        </div>
                     </div>
                     </div>
                     <div class="submit-button">
-                    <input type="submit" value="Submit">
+                      <div class="signin-button-wrapper-one">
+                        <img src="/assets/icons8-maximize-button-32.png" alt="information icon" width="20px">
+                        <p>keep me signed in</p>
+                        <img src="/assets/icons8-info.svg" alt="information icon" width="20px">
+                        <div class="forgot-wrapper"><a href="#">Forgot Password?</a></div>
+                      </div>
+                      <div class="signin-button-wrapper">
+                        <input class="signin-button"type="submit" value="Sign in">
+                      </div> 
                 </div>
-                </form>
+              </form>
+              <div class="line-wrapper"><hr></div>
+                <div class="add-signup-wrapper">
+                  <h2>Need to sign up?</h2>
+                </div>
+                <div class="add-signup-wrapper-two">
+                  <a href="/registration.html"><button>Create Account</button></a>
+                </div>
             </div>
           </div>
         </div>

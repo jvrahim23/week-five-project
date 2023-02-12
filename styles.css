@@ -499,20 +499,114 @@ footer .footer-text {
   height: 736px;
 }
 .email-two input {
-  width: 365px;
-  height: 32px;
+  width: 565px;
+  height: 40px;
 }
 
 .password-two input {
-  width: 365px;
-  height: 32px;
+  width: 565px;
+  height: 40px;
 }
 
-.login_box_container-two{
+.login_box_container-two {
   position: absolute;
   padding-left: 2%;
   padding-top: 5%;
   top: 0;
+}
+
+/*.password-two {
+  position: absolute;
+  
+}
+
+.eye-wrapper {
+  position: relative;
+  padding-left: 100px;
+ 
+}
+*/
+.signin-button {
+  width: 175px;
+  height: 41px;
+
+  background: #000000;
+  border-radius: 30px;
+}
+
+.signin-button-wrapper {
+  padding-top: 5%;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+.wrapper-for-signin-text {
+  position: relative;
+  text-align: left;
+  align-items: center;
+  margin-left: 18%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+.wrapper-for-signin-text h2 {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: white;
+}
+.signin-button-wrapper-one {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.forgot-wrapper {
+  margin-left: 25%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.signin-button-wrapper input {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #fffefe;
+}
+.line-wrapper {
+  padding-top: 30%;
+  padding-bottom: 20%;
+  text-align: left;
+}
+
+.line-wrapper hr{
+  width:100%;
+  text-align: center;
+}
+.add-signup-wrapper-two {
+  text-align: left;
+}
+
+.add-signup-wrapper-two button {
+  background: #fffefe;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  width: 175px;
+  height: 41px;
+}
+
+.add-signup-wrapper h2 {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
 }
 
 /*registration page styling*/
