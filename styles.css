@@ -563,7 +563,7 @@ footer .footer-text {
 }
 
 .forgot-wrapper {
-  margin-left: 25%;
+  margin-left: 50%;
   display: flex;
   text-align: center;
   align-items: center;
@@ -583,8 +583,8 @@ footer .footer-text {
   text-align: left;
 }
 
-.line-wrapper hr{
-  width:100%;
+.line-wrapper hr {
+  width: 100%;
   text-align: center;
 }
 .add-signup-wrapper-two {
@@ -678,7 +678,7 @@ footer .footer-text {
 
 .stars-div {
   display: flex;
-  gap: 4em;
+  gap: 0.5em;
 }
 
 .stars-div p {
@@ -689,7 +689,9 @@ footer .footer-text {
   line-height: 25px;
   color: #000000;
 }
-
+.star-reviews {
+  display: flex;
+}
 .contents-div {
   padding-top: 2%;
 }
@@ -784,3 +786,203 @@ footer .footer-text {
   margin-right: 15%;
   padding-top: 5%;
 }
+
+/*reviews styling*/
+.book-and-title {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.reviews-div {
+  padding-top: 1%;
+}
+.reviews-div .heading {
+  width: 211px;
+  height: 51px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+}
+
+.reviews-stars-div p {
+  width: 211px;
+  height: 51px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+  color: #000000;
+}
+.author-reviews-wrapper {
+  padding-left: 20%;
+}
+.reviews-stars-div {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.reviews-div .heading {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+  color: #000000;
+}
+
+.right-side-reviews {
+  padding-left: 20%;
+}
+
+.book-and-title .girl-book-two {
+  padding-top: 10%;
+}
+.right-side-reviews .book-and-title p {
+  padding-left: 5%;
+}
+.book-and-title p {
+  width: 451px;
+  height: 68px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+}
+.total-ratings{
+  padding-left: 5%;
+}
+.total-ratings p {
+  width: 121px;
+  height: 25px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(103, 102, 102, 0.99);
+}
+.reviews-right-side-bottom-1 {
+  padding-left: 20%;
+}
+
+.reviews-right-side-bottom-1 .first-title {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.account-name-reviews {
+  padding-top: 0.5em;
+  display: flex;
+  gap: 1em;
+}
+.reviews-right-side-bottom-2 {
+  padding-left: 20%;
+  padding-bottom: 1%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.reviews-right-side-bottom-2 p {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #000000;
+}
+.reviews-right-side-bottom-3 {
+  padding-left: 20%;
+}
+.reviews-right-side-bottom-3 h5 {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: rgba(103, 102, 102, 0.99);
+}
+.reviews-right-side-bottom-3 p {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.customer-reviews-fifth{
+  display: flex;
+  padding-top:5% ;
+  gap:1em;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.customer-reviews-fourth{
+  display: flex;
+  gap:1em;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.customer-reviews-third{
+  display: flex;
+  gap:1em;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.customer-reviews-second{
+  display: flex;
+  gap:1em;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.customer-reviews-first{
+  display: flex;
+  gap:1em;
+  text-align: center;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.review-button-review-wrapper {
+  padding-top: 5%;
+  padding-left: 25%;
+}
+
+.review-button-review-wrapper button{
+  box-sizing: border-box;
+  position: absolute;
+  width: 134px;
+  height: 31px;
+  background: #FFFEFE;
+  border: 1px solid rgba(184, 181, 181, 0.99);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.customer-reviews-first{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 5%;
+}
+
