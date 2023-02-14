@@ -340,28 +340,39 @@ footer .footer-text {
   text-decoration: none;
 }
 
-/*.overview-small-rectangle ul {
-    list-style-type: none;
-}*/
-
 .second-about-us-div {
+  position: absolute;
+}
+.second-about-us-div .second-section-left-side img {
   position: relative;
+  padding-top: 40%;
+  padding-bottom: 5%;
+  padding-left: 10%;
 }
 
-.second-about-us-div img {
-  position: absolute;
-  padding-top: 50%;
-  padding-left: 20px;
+.second-about-us-div .second-section-left-side h2 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-.second-about-us-div h2 {
-  position: absolute;
-  padding-top: 60%;
-  padding-left: 20px;
+.second-section-left-side h2 {
+  width: 99px;
+  height: 34px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
 }
 /*middle content right side */
 
 .about-us-right-square {
+  position: absolute;
   width: 1197px;
   height: 709px;
   background: #fffefe;
@@ -370,6 +381,44 @@ footer .footer-text {
   margin-left: 10px;
 }
 
+.about-us-right-square .second-section-right-sid h2 {
+  width: 50px;
+  height: 29px;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.second-section-right-sid .main-header-about-us-right {
+  font-family: "Inria Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 23px;
+  color: #000000;
+}
+.second-section-right-sid ul {
+  padding-left: 5%;
+}
+.second-section-right-sid h2 {
+  padding-left: 2%;
+}
+.second-section-right-sid ul li {
+  /*font-family: "Jaldi";*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 42px;
+  color: #000000;
+}
+.gold line {
+  position: absolute;
+  padding-top: 10%;
+  padding-left: 5%;
+}
 /*book listing page*/
 .sub_categories {
   display: flex;
@@ -854,7 +903,7 @@ footer .footer-text {
   line-height: 34px;
   color: #000000;
 }
-.total-ratings{
+.total-ratings {
   padding-left: 5%;
 }
 .total-ratings p {
@@ -921,43 +970,43 @@ footer .footer-text {
   color: #000000;
 }
 
-.customer-reviews-fifth{
+.customer-reviews-fifth {
   display: flex;
-  padding-top:5% ;
-  gap:1em;
+  padding-top: 5%;
+  gap: 1em;
   text-align: center;
   align-items: center;
   padding-bottom: 5%;
   padding-left: 5%;
 }
-.customer-reviews-fourth{
+.customer-reviews-fourth {
   display: flex;
-  gap:1em;
+  gap: 1em;
   text-align: center;
   align-items: center;
   padding-bottom: 5%;
   padding-left: 5%;
 }
-.customer-reviews-third{
+.customer-reviews-third {
   display: flex;
-  gap:1em;
+  gap: 1em;
   text-align: center;
   align-items: center;
   padding-bottom: 5%;
   padding-left: 5%;
 }
-.customer-reviews-second{
+.customer-reviews-second {
   display: flex;
-  gap:1em;
+  gap: 1em;
   text-align: center;
   align-items: center;
   padding-bottom: 5%;
   padding-left: 5%;
 }
 
-.customer-reviews-first{
+.customer-reviews-first {
   display: flex;
-  gap:1em;
+  gap: 1em;
   text-align: center;
   align-items: center;
   padding-left: 5%;
@@ -968,21 +1017,13 @@ footer .footer-text {
   padding-left: 25%;
 }
 
-.review-button-review-wrapper button{
+.review-button-review-wrapper button {
   box-sizing: border-box;
   position: absolute;
   width: 134px;
   height: 31px;
-  background: #FFFEFE;
+  background: #fffefe;
   border: 1px solid rgba(184, 181, 181, 0.99);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
-
-.customer-reviews-first{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding-left: 5%;
-}
-
