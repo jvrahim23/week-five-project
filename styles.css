@@ -2,7 +2,12 @@
   padding: 0;
   margin: 0;
 }
-
+.about-us-background{
+  background: gray;
+ }
+.container-right card ul li{
+  line-height: 56px ;
+}
 /* banner styling */
 .banner-container {
   max-width: 1986px;
@@ -733,10 +738,17 @@ footer .footer-text {
 
 .hero-book-div {
   display: flex;
-  padding-left: 5%;
-  padding-top: 2%;
+  padding-left: 7%;
+  padding-top: 10%;
 }
 
+.container-two{
+display: flex;
+}
+.container-left cards{
+ padding-left: 10%;
+ 
+}
 .stars-div {
   display: flex;
   gap: 0.5em;
@@ -1051,3 +1063,52 @@ footer .footer-text {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
+
+/*media query*/
+@media screen and (max-width: 600px) {
+  .banner-container-about-us a {
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner-container-about-us a {
+  float: none;
+  width: 100%;
+  }
+}
+/*test*/
+.container{
+  display: flex;
+  padding:40px;
+}
+
+.card{
+  background:white;
+  border-radius:25px;
+  padding:20px;
+  margin: 10px;
+}
+
+.container-left{
+  width:30%;
+}
+
+.container-right{
+  width:70%;
+}
+
+.container-left hr{
+ border: 2px solid gray;
+}
+.container-right hr{
+  border: 2px solid gold;
+ }
+
+ .card div{
+  padding:20px;
+ }
+
+ .container-left h2{
+  padding:30px 10px;
+ }
