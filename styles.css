@@ -532,7 +532,7 @@ footer .footer-text {
 /*login html begin*/
 .main-login {
   background: url(/assets/pexels-suzy-hazelwood-1887609.jpg);
-  max-width: 1760px;
+  max-width: 1986px;
   height: 1206px;
 }
 .first {
@@ -1099,6 +1099,13 @@ display: flex;
   width: 100%;
   }
 }
+  @media screen and (max-width: 480px) {
+    .main-login .banner-container-about-us nav a{
+    float: none;
+    width: 100%;
+    font-size: 15px;
+    }
+}
 /*test*/
 .container{
   display: flex;
@@ -1153,6 +1160,7 @@ display: flex;
   }
 }
 
+
 @media screen and (max-width: 480px) {
   .container{
   flex-direction: column;
@@ -1183,7 +1191,7 @@ display: flex;
 
   @media screen and (max-width: 480px) {
     .registration_title{
-
+      
    padding-left: 10%;
     }
     .registration_title_header{
@@ -1198,5 +1206,43 @@ display: flex;
     }
   
   }
+
+  @media screen and (max-width: 480px) {
+    .sub_categories a{
+      padding: 0;
+     
+    }
   
- 
+  }
+
+  @media screen and (max-width: 480px) {
+  .top-book_section .top-books img {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.top-book_section .bottom-books img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.container-two{
+  flex-direction: column;
+}
+.contents-div-two .contents-right-side p {
+  font-size: 16px;
+}
+.book-and-title {
+padding-left: 20px;
+}
+
+
+.forgot-wrapper {
+  margin-left: 20px;
+}
+}
+
